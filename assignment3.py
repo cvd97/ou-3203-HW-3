@@ -6,11 +6,13 @@ def sum(numbers):
         total += number
     return number
 
+
 def multiply(numbers):
     result = 1
     for x in numbers:
         result = result * x
     return result
+
 
 def reverse(numbers):
     new_numbers = numbers[::-1]
@@ -28,5 +30,6 @@ def main():
     print(multiply(n))
     
     print(reverse(n))
+    
     
 main()
