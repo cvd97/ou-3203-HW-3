@@ -11,3 +11,17 @@ def multiply(numbers):
     for x in numbers:
         result = result * x
     return result
+
+def main():
+    
+    
+    s = input()
+    
+    n = list(map(int,s.split()))
+    
+    print(sum(n))
+    
+    print(multiply(n))
+    
+    
+main()
